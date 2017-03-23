@@ -13,7 +13,6 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 @EntityScan("movies.spring.data.neo4j.domain")
 
 public class SampleMovieApplication {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SampleMovieApplication.class, args);
 	}
